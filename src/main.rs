@@ -1,60 +1,12 @@
-#![allow(dead_code, unused_variables)]
+#![allow(clippy::needless_return)]
+#![feature(duration_millis_float)]
 
+use anyhow::{Error, Result, anyhow, bail};
 use std::collections::HashMap;
 use std::env::temp_dir;
 use std::fs::File;
-use std::io::{BufRead, BufReader, Read};
-use std::num::ParseIntError;
+use std::io::{BufRead, BufReader};
 use std::time::{self};
-
-use rocksdb::Error;
-
-#[derive(Debug)]
-struct Insert {
-    key: String,
-    value: String,
-}
-
-impl Insert {
-    fn new(key: String, value: String) -> Self {
-        Self { key, value }
-    }
-}
-
-#[derive(Debug)]
-struct Update {
-    key: String,
-    value: String,
-}
-
-impl Update {
-    fn new(key: String, value: String) -> Self {
-        Self { key, value }
-    }
-}
-
-#[derive(Debug)]
-struct PointQuery {
-    key: String,
-}
-
-impl PointQuery {
-    fn new(key: String) -> Self {
-        Self { key }
-    }
-}
-
-#[derive(Debug)]
-struct RangeQuery {
-    start_key: String,
-    range: usize,
-}
-
-impl RangeQuery {
-    fn new(start_key: String, range: usize) -> Self {
-        Self { start_key, range }
-    }
-}
 
 fn main() {
     // Ask for an input file (workflow file) and database layer
@@ -79,26 +31,37 @@ fn main() {
     // Easiest way to do this is a hashmap
 
     let args: Vec<String> = std::env::args().collect();
-    if args.len() != 2 {
-        println!("Expected 2 args, got {} args", args.len());
+    if args.len() != 3 {
+        println!("Format: {} <db_name> <workload_file>", { args[0].clone() });
         return;
     }
 
-    let file_path = args[1].clone();
+    let file_path = args[2].clone();
 
     let file = File::open(file_path).expect("Need a proper file path");
     let buf_reader = BufReader::new(file);
 
-    let db_layer: Box<dyn DBTranslationLayer> = match RocksDB::new() {
-        Ok(db) => Box::new(db),
-        Err(err) => {
-            eprintln!("Failed to create db because of error {err}");
-            return;
-        }
+    let db_layer: Box<dyn DBTranslationLayer> = match &*args[1].clone().to_ascii_lowercase() {
+        "printdb" => match PrintDB::new() {
+            Ok(db) => Box::new(db),
+            Err(err) => {
+                eprintln!("Failed to create db because of error {err}");
+                return;
+            }
+        },
+        "rocksdb" => match RocksDB::new() {
+            Ok(db) => Box::new(db),
+            Err(err) => {
+                eprintln!("Failed to create db because of error {err}");
+                return;
+            }
+        },
+        _ => panic!("Unsupported database. Supported databases are printdb and rocksdb"),
     };
 
     let mut operation_statistics = HashMap::<&str, Statistics>::new();
 
+    let start_time = std::time::Instant::now();
     for line in buf_reader.lines() {
         let res = parse_line(line, db_layer.as_ref(), &mut operation_statistics);
         if res.is_err() {
@@ -106,19 +69,52 @@ fn main() {
             return;
         }
     }
+    let end_time = std::time::Instant::now();
+
+    let mut total_operation_counts = 0;
+    // Print out statistics
+    for (operation, stats) in operation_statistics {
+        let operation = match operation {
+            "I" => "Insert",
+            "P" => "Point Query",
+            "U" => "Update",
+            "S" => "Range Query",
+            "M" => "Merge",
+            "R" => "Range Delete",
+            _ => panic!("Unknown operation in statistics set"),
+        };
+        total_operation_counts += stats.count;
+        println!("[{}] Count: {}", operation, stats.count);
+        println!("[{}] Total Latency: {}ms", operation, stats.sum);
+        println!(
+            "[{}] Average Latency: {}ms",
+            operation,
+            stats.sum / stats.count as f64
+        );
+        if let Some(min) = stats.min {
+            println!("[{}] Minimum Latency: {}ms", operation, min);
+        }
+        if let Some(max) = stats.max {
+            println!("[{}] Maximum Latency: {}ms", operation, max);
+        }
+    }
+    println!(
+        "[Overall] Throughput (ops/ms): {}",
+        total_operation_counts as f64 / end_time.duration_since(start_time).as_millis_f64()
+    );
 }
 
 #[derive(Default)]
 struct Statistics {
-    operation_latencies: Vec<u128>,
-    count: u128,
-    sum: u128,
-    min: Option<u128>,
-    max: Option<u128>,
+    operation_latencies: Vec<f64>,
+    count: usize,
+    sum: f64,
+    min: Option<f64>,
+    max: Option<f64>,
 }
 
 impl Statistics {
-    fn add_latency(&mut self, latency: u128) {
+    fn add_latency(&mut self, latency: f64) {
         self.count += 1;
         self.sum += latency;
         match &mut self.min {
@@ -143,177 +139,208 @@ impl Statistics {
     }
 }
 
-#[derive(Debug)]
-enum LineParseError {
-    MissingArgument,
-    WrongArgumentType(ParseIntError),
-    LineCouldNotBeRead(std::io::Error),
-    UnknownOperation,
-}
-
 fn parse_line(
     line: Result<String, std::io::Error>,
     db_layer: &dyn DBTranslationLayer,
     operation_statistics_map: &mut HashMap<&str, Statistics>,
-) -> Result<(), LineParseError> {
-    let line = line.map_err(LineParseError::LineCouldNotBeRead)?;
+) -> Result<()> {
+    let line = line?;
     let mut line_iter = line.split_whitespace();
     let operation = line_iter.next().unwrap();
 
     let start_time: std::time::Instant;
-    let key: &str;
+    let op_key: &str;
 
     match operation {
         "I" => {
-            let insert_op = Insert::new(
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-            );
+            let key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            let value = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
 
-            key = "I";
+            op_key = "I";
             start_time = std::time::Instant::now();
-            db_layer.insert(insert_op.key, insert_op.value);
+            db_layer.insert(key, value)?;
         }
         "P" => {
-            let point_query_op = PointQuery::new(
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-            );
-            key = "P";
+            let key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            op_key = "P";
             start_time = std::time::Instant::now();
-            db_layer.point_query(point_query_op.key)
+            db_layer.point_query(key)?;
         }
         "U" => {
-            let update_op = Update::new(
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-            );
-            key = "U";
+            let key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            let value = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            op_key = "U";
             start_time = std::time::Instant::now();
-            db_layer.update(update_op.key, update_op.value)
+            db_layer.update(key, value)?;
         }
         "S" => {
-            let scan_op = RangeQuery::new(
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .to_string(),
-                line_iter
-                    .next()
-                    .ok_or(LineParseError::MissingArgument)?
-                    .parse::<usize>()
-                    .map_err(LineParseError::WrongArgumentType)?,
-            );
-            key = "S";
+            let start_key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            let bound = line_iter.next().ok_or(anyhow!("Missing Argument"))?;
+
+            op_key = "S";
             start_time = time::Instant::now();
-            db_layer.range_query(scan_op.start_key, scan_op.range)
+            if let Ok(range) = bound.parse::<usize>() {
+                db_layer.range_query_count(start_key, range)?;
+            } else {
+                db_layer.range_query(start_key, bound.to_string())?;
+            }
         }
         "M" => {
-            // Merge
+            let key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            let value = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+
+            op_key = "M";
+            start_time = time::Instant::now();
+
+            db_layer.merge(key, value)?;
         }
         "R" => {
             // Range delete
+            let start_key = line_iter
+                .next()
+                .ok_or(anyhow!("Missing Argument"))?
+                .to_string();
+            let bound = line_iter.next().ok_or(anyhow!("Missing Argument"))?;
+
+            op_key = "R";
+            start_time = time::Instant::now();
+
+            if let Ok(range) = bound.parse::<usize>() {
+                db_layer.range_delete_count(start_key, range)?;
+            } else {
+                db_layer.range_delete(start_key, bound.to_string())?;
+            }
         }
-        _ => return Err(LineParseError::UnknownOperation),
+        _ => bail!("Unknown operation"),
     };
 
-    let latency = start_time
-        .duration_since(std::time::Instant::now())
-        .as_millis();
-    let map = operation_statistics_map.entry(key).or_default();
+    let latency = std::time::Instant::now()
+        .duration_since(start_time)
+        .as_millis_f64();
+    let map = operation_statistics_map.entry(op_key).or_default();
     map.add_latency(latency);
-
-    // Do two matches maybe
-    // Also can do lazy evaluation here
 
     Ok(())
 }
 
 trait DBTranslationLayer {
     // Setup
-    fn init(&mut self) -> Result<(), Error>;
-    fn cleanup(self);
+    fn init(&mut self) -> Result<()>;
+    fn cleanup(self) -> Result<()>;
 
     // Operations
-    fn insert(&self, key: String, value: String);
-    fn update(&self, key: String, value: String);
-    fn merge(&self, key: String, value: String);
-    fn point_delete(&self, key: String);
-    fn point_query(&self, key: String);
-    // TODO: Range query count and range delete count
-    fn range_query(&self, start_key: String, end_key: String);
-    fn range_query_count(&self, start_key: String, range: usize);
-    fn range_delete(&self, start_key: String, end_key: String);
-    fn range_delete_count(&self, start_key: String, range: usize);
+    fn insert(&self, key: String, value: String) -> Result<()>;
+    fn update(&self, key: String, value: String) -> Result<()>;
+    fn merge(&self, key: String, value: String) -> Result<()>;
+    fn point_delete(&self, key: String) -> Result<()>;
+    fn point_query(&self, key: String) -> Result<()>;
+    fn range_query(&self, start_key: String, end_key: String) -> Result<()>;
+    fn range_query_count(&self, start_key: String, range: usize) -> Result<()>;
+    fn range_delete(&self, start_key: String, end_key: String) -> Result<()>;
+    fn range_delete_count(&self, start_key: String, range: usize) -> Result<()>;
 }
 
 struct PrintDB {}
 
+impl PrintDB {
+    fn new() -> Result<Self> {
+        println!("Initialized");
+        Ok(Self {})
+    }
+}
+
 impl DBTranslationLayer for PrintDB {
-    fn init(&mut self) -> Result<(), Error> {
+    fn init(&mut self) -> Result<()> {
         println!("Initialized");
         Ok(())
     }
 
-    fn cleanup(self) {
+    fn cleanup(self) -> Result<()> {
         println!("Done");
+
+        return Ok(());
     }
 
-    fn point_query(&self, key: String) {
-        println!("PointQuery: {{key = {key}}}")
+    fn point_query(&self, key: String) -> Result<()> {
+        println!("PointQuery: {{key = {key}}}");
+
+        return Ok(());
     }
 
-    fn update(&self, key: String, value: String) {
+    fn update(&self, key: String, value: String) -> Result<()> {
         println!("Update: {{key = {key}, value = {value}}}");
-        todo!()
+
+        return Ok(());
     }
 
-    fn insert(&self, key: String, value: String) {
+    fn insert(&self, key: String, value: String) -> Result<()> {
         println!("Insert: {{key = {key}, value = {value}}}");
+
+        return Ok(());
     }
 
-    fn range_query(&self, start_key: String, end_key: String) {
+    fn range_query(&self, start_key: String, end_key: String) -> Result<()> {
         println!("Range Query: {{start_key = {start_key}, end_key = {end_key}}}");
+
+        return Ok(());
     }
 
-    fn range_query_count(&self, start_key: String, range: usize) {
+    fn range_query_count(&self, start_key: String, range: usize) -> Result<()> {
         println!("Range Query: {{key = {start_key}, count = {range}}}");
+
+        return Ok(());
     }
 
-    fn point_delete(&self, key: String) {
+    fn point_delete(&self, key: String) -> Result<()> {
         println!(" Delete: {{key = {key}}}");
+
+        return Ok(());
     }
 
-    fn range_delete(&self, start_key: String, end_key: String) {
+    fn range_delete(&self, start_key: String, end_key: String) -> Result<()> {
         println!("Range Delete: {{start_key = {start_key}, end_key = {end_key}}}");
+
+        return Ok(());
     }
 
-    fn range_delete_count(&self, start_key: String, range: usize) {
+    fn range_delete_count(&self, start_key: String, range: usize) -> Result<()> {
         println!("Range Query: {{key = {start_key}, count = {range}}}");
+        return Ok(());
     }
 
-    fn merge(&self, key: String, value: String) {
+    fn merge(&self, key: String, value: String) -> Result<()> {
         println!("Merge: {{key = {key}, value = {value}}}");
+
+        return Ok(());
     }
 }
 
 struct RocksDB {
     db: rocksdb::DB,
-    print: PrintDB,
 }
 
 impl RocksDB {
@@ -321,92 +348,113 @@ impl RocksDB {
         let dir = temp_dir();
         Ok(Self {
             db: rocksdb::DB::open_default(dir.as_path())?,
-            print: PrintDB {},
         })
     }
 }
 
 impl DBTranslationLayer for RocksDB {
-    fn init(&mut self) -> Result<(), Error> {
+    fn init(&mut self) -> Result<()> {
         let dir = temp_dir();
         self.db = rocksdb::DB::open_default(dir.as_path())?;
 
         Ok(())
     }
 
-    fn cleanup(self) {
+    fn cleanup(self) -> Result<()> {
         std::mem::drop(self);
+        return Ok(());
     }
 
-    fn point_query(&self, key: String) {
+    fn point_query(&self, key: String) -> Result<()> {
         let _ = self.db.get(key);
+        return Ok(());
     }
 
-    fn update(&self, key: String, value: String) {
-        self.insert(key, value);
+    fn update(&self, key: String, value: String) -> Result<()> {
+        self.insert(key, value)?;
+        return Ok(());
     }
 
-    fn insert(&self, key: String, value: String) {
+    fn insert(&self, key: String, value: String) -> Result<()> {
         let _ = self.db.put(key.clone(), value.clone());
-        self.print.insert(key, value);
+        return Ok(());
     }
 
-    fn range_query(&self, start_key: String, end_key: String) {
+    fn range_query(&self, start_key: String, end_key: String) -> Result<()> {
         let mut opts = rocksdb::ReadOptions::default();
         opts.set_iterate_upper_bound(end_key);
-        let mut db_iter = self.db.iterator_opt(
+        let mut res = HashMap::<Box<[u8]>, Box<[u8]>>::new();
+        let db_iter = self.db.iterator_opt(
             rocksdb::IteratorMode::From(start_key.as_bytes(), rocksdb::Direction::Forward),
             opts,
         );
-    }
 
-    fn range_query_count(&self, start_key: String, range: usize) {
-        let mut db_iter = self.db.raw_iterator();
-        let mut res: Vec<Option<String>> = vec![];
-        db_iter.seek(start_key.clone());
-        let mut buf = String::new();
-        if let Some(mut item) = db_iter.item() {
-            // let mut key = String::new();
-            // item.0.read_to_string(&mut buf);
-            // std::mem::swap(&mut key, &mut buf);
-            // println!("Key: {:#?}", key);
-            item.1
-                .read_to_string(&mut buf)
-                .expect("Item could not be read to string");
-            let mut item = String::new();
-            std::mem::swap(&mut item, &mut buf);
-            res.push(Some(item));
-        };
-        for i in 0..range {
-            db_iter.next();
-            if let Some(mut item) = db_iter.item() {
-                // let mut key = String::new();
-                // item.0.read_to_string(&mut buf);
-                // std::mem::swap(&mut key, &mut buf);
-                // println!("Key: {:#?}", key);
-                item.1
-                    .read_to_string(&mut buf)
-                    .expect("Item could not be read to string");
-                let mut item = String::new();
-                std::mem::swap(&mut item, &mut buf);
-                res.push(Some(item));
-            };
+        for item in db_iter {
+            let (key, value) = item?;
+            res.insert(key, value);
         }
+        return Ok(());
     }
 
-    fn point_delete(&self, key: String) {
-        todo!()
+    fn range_query_count(&self, start_key: String, range: usize) -> Result<()> {
+        let mut db_iter = self.db.iterator(rocksdb::IteratorMode::From(
+            start_key.as_bytes(),
+            rocksdb::Direction::Forward,
+        ));
+        let mut res = HashMap::<Box<[u8]>, Box<[u8]>>::new();
+        for i in 0..range {
+            let item = db_iter.next();
+            if let Some(item) = item {
+                let (key, value) = item?;
+                res.insert(key, value);
+            } else {
+                break;
+            }
+        }
+        return Ok(());
     }
 
-    fn merge(&self, key: String, value: String) {
-        todo!()
+    fn point_delete(&self, key: String) -> Result<()> {
+        self.db.delete(key)?;
+        return Ok(());
     }
 
-    fn range_delete(&self, start_key: String, end_key: String) {
-        todo!()
+    fn merge(&self, key: String, value: String) -> Result<()> {
+        self.db.merge(key, value)?;
+        return Ok(());
     }
 
-    fn range_delete_count(&self, start_key: String, range: usize) {
-        todo!()
+    fn range_delete(&self, start_key: String, end_key: String) -> Result<()> {
+        let mut write_batch = rocksdb::WriteBatch::default();
+        write_batch.delete_range(start_key.as_bytes(), end_key.as_bytes());
+        self.db.write(write_batch)?;
+        return Ok(());
+    }
+
+    fn range_delete_count(&self, start_key: String, range: usize) -> Result<()> {
+        let mut db_iter = self.db.iterator(rocksdb::IteratorMode::From(
+            start_key.as_bytes(),
+            rocksdb::Direction::Forward,
+        ));
+        let mut end_key: Option<Box<[u8]>> = None;
+        for i in 0..range {
+            if let Some(item) = db_iter.next() {
+                let (key, _) = item?;
+                end_key = Some(key);
+                if i == range - 1 {
+                    break;
+                }
+            } else {
+                break;
+            }
+        }
+
+        if let Some(end_key) = end_key {
+            let mut write_batch = rocksdb::WriteBatch::default();
+            write_batch.delete_range(start_key.as_bytes(), end_key.as_ref());
+            self.db.write(write_batch)?;
+        }
+
+        return Ok(());
     }
 }
