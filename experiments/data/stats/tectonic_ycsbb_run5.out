@@ -1,0 +1,31 @@
+[[***Overall Stats***]]
+[Insert] Count: 1000000
+[Insert] Successful Operations Count: 1000000
+[Insert] Total Latency: 5550273us
+[Insert] Average Latency: 5.550273000000003us
+[Insert] Minimum Latency: 3us
+[Insert] Maximum Latency: 15669us
+[Insert] 95th Percentile Latency: 9us
+[Insert] 99th Percentile Latency: 11us
+[Update] Count: 50000
+[Update] Successful Operations Count: 50000
+[Update] Total Latency: 268381us
+[Update] Average Latency: 5.367620000000002us
+[Update] Minimum Latency: 3us
+[Update] Maximum Latency: 362us
+[Update] 95th Percentile Latency: 10us
+[Update] 99th Percentile Latency: 15us
+[Point Query] Count: 950000
+[Point Query] Successful Operations Count: 950000
+[Point Query] Total Latency: 4892437us
+[Point Query] Average Latency: 5.149933684210525us
+[Point Query] Minimum Latency: 0us
+[Point Query] Maximum Latency: 430us
+[Point Query] 95th Percentile Latency: 29us
+[Point Query] 99th Percentile Latency: 44us
+[Overall] Total Operations: 2000000
+[Overall] Average Latency: 5.3555455us
+[Overall] Throughput (using start and end time) (ops/ms): 123.9504443907092
+[Overall] Throughput (using aggregate operation times) (ops/ms): 186.72234228987503
+[Overall] Total Time Spent (using start and end time): 16135.480674ms
+[Overall] Aggregate Operation Time: 10711.091ms

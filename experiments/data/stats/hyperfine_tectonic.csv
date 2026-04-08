@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+./target/release/tectonic-cli ycsb -w a -s 0.01 -d rocksdb,1.80496425666,0.04581409901307163,1.78890608226,1.7487391799999998,1.17914042,1.76780251176,1.89484260076

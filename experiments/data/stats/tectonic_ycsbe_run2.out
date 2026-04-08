@@ -1,0 +1,23 @@
+[[***Overall Stats***]]
+[Insert] Count: 1050000
+[Insert] Successful Operations Count: 1050000
+[Insert] Total Latency: 7128468us
+[Insert] Average Latency: 6.789017142857142us
+[Insert] Minimum Latency: 3us
+[Insert] Maximum Latency: 26890us
+[Insert] 95th Percentile Latency: 15us
+[Insert] 99th Percentile Latency: 39us
+[Range Query] Count: 950000
+[Range Query] Successful Operations Count: 950000
+[Range Query] Total Latency: 632317562us
+[Range Query] Average Latency: 665.5974336842125us
+[Range Query] Minimum Latency: 4us
+[Range Query] Maximum Latency: 62940us
+[Range Query] 95th Percentile Latency: 1447us
+[Range Query] 99th Percentile Latency: 1561us
+[Overall] Total Operations: 2000000
+[Overall] Average Latency: 319.723015us
+[Overall] Throughput (using start and end time) (ops/ms): 3.091609462771937
+[Overall] Throughput (using aggregate operation times) (ops/ms): 3.127707274998642
+[Overall] Total Time Spent (using start and end time): 646912.239105ms
+[Overall] Aggregate Operation Time: 639446.03ms

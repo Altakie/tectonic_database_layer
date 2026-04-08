@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+./bin/ycsb load rocksdb -P workloads/workloada -p rocksdb.dir=/tmp/rocksdb-ycsb && ./bin/ycsb run rocksdb -P workloads/workloada -p rocksdb.dir=/tmp/rocksdb-ycsb,12.48726100322,0.19744705849980637,12.45860918152,78.42299418,4.934500259999999,12.22323187852,12.84493099052

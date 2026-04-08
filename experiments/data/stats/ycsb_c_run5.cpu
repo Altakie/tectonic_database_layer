@@ -1,0 +1,94 @@
+Linux 5.4.0-216-generic (tectonic) 	03/16/26 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:56:56     1000     59437  173.00   40.00    0.00    0.00  213.00    29  83615.00     76.00 45706660  343616   0.17  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:56:57     1000     59437   61.00   42.00    0.00    0.00  103.00    29 147449.00      0.00 45804988  933936   0.48  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:56:58     1000     59437   57.00   45.00    0.00    0.00  102.00    29 166452.00      0.00 45886928 1564288   0.80  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:56:59     1000     59437   91.00   60.00    0.00    0.00  151.00    29 136129.00      0.00 46001644 1693656   0.86  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:00     1000     59437   90.00   59.00    0.00    0.00  149.00    29  38111.00      0.00 45854152 1562992   0.80  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:01     1000     59437   89.00   44.00    0.00    0.00  133.00    29  31988.00      0.00 45985224 1688260   0.86  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:02     1000     59437   99.00   45.00    0.00    0.00  144.00    29  31311.00      0.00 46181832 1813540   0.92  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:03     1000     59437  102.00   55.00    0.00    0.00  157.00    29  31858.00      0.00 46083472 1680808   0.86  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:04     1000     59437  141.00   72.00    0.00    0.00  213.00    29  34095.00      0.00 46214544 1799184   0.92  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:05     1000     59437   95.00   47.00    0.00    0.00  142.00    29  32493.00      0.00 46411152 1925872   0.98  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:06     1000     59437   66.00   42.00    0.00    0.00  108.00    29   5377.00      0.00 46402956 1946716   0.99  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:07     1000     59437   32.00   22.00    0.00    0.00   54.00    29    410.00      0.00 46402956 1948284   0.99  java
+Linux 5.4.0-216-generic (tectonic) 	03/16/26 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:08     1000     59933   63.37   23.76    0.00    0.00   87.13    35  35482.18      0.00 43494492  197192   0.10  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:09     1000     59933   48.00   25.00    0.00    0.00   73.00    35  33545.00      0.00 43493432  203296   0.10  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:10     1000     59933   83.00   27.00    0.00    0.00  110.00    35   6344.00      0.00 43496516  216296   0.11  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:11     1000     59933  182.00   49.00    0.00    0.00  231.00    35  26428.00      0.00 43564108  320784   0.16  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:12     1000     59933  118.00   43.00    0.00    0.00  161.00    35   7248.00      0.00 45694156  343520   0.17  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:13     1000     59933  129.00   41.00    0.00    0.00  170.00    35   1341.00      0.00 45694156  344224   0.18  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:14     1000     59933  117.00   45.00    0.00    0.00  162.00    35   8625.00      0.00 45694156  375604   0.19  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:15     1000     59933  118.00   44.00    0.00    0.00  162.00    35  18165.00      0.00 45694156  442796   0.23  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:16     1000     59933  121.00   42.00    0.00    0.00  163.00    35      1.00      0.00 45694156  442796   0.23  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:17     1000     59933  109.00   46.00    0.00    0.00  155.00    35     12.00      0.00 45694156  442796   0.23  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:18     1000     59933  141.00   34.00    0.00    0.00  175.00    35  34458.00      0.00 45694156  580328   0.30  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:19     1000     59933  138.00   51.00    0.00    0.00  189.00    35  63719.00      0.00 45689228  825648   0.42  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:20     1000     59933  147.00   41.00    0.00    0.00  188.00    35  62116.00      0.00 45689228 1073304   0.55  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:21     1000     59933  143.00   37.00    0.00    0.00  180.00    35  62509.00      0.00 45689228 1322800   0.67  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:22     1000     59933  145.00   44.00    0.00    0.00  189.00    35  39733.00      0.00 45689228 1480280   0.75  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:23     1000     59933  158.00   31.00    0.00    0.00  189.00    35   3495.00      0.00 45689228 1494272   0.76  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:24     1000     59933  148.00   29.00    0.00    0.00  177.00    35      2.00      0.00 45689228 1494272   0.76  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:57:25     1000     59933  157.00   29.00    0.00    0.00  186.00    35      2.00      0.00 45689228 1494272   0.76  java
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command

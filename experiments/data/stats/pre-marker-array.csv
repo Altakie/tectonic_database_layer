@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+./target/release/tectonic-cli benchmark -w example-specs/ycsb/a.spec.json -d rocksdb,71.84801837896,7.62138970120087,72.18873737566,45.47070296,27.80913048,61.11222834916,81.65100260916

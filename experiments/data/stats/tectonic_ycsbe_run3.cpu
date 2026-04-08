@@ -1,0 +1,1918 @@
+Linux 5.4.0-216-generic (tectonic) 	03/16/26 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:25     1000     21726   76.00   38.00    0.00    0.00  114.00    10  38640.00      1.00  411364   80000   0.04  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:26     1000     21726   94.00   38.00    0.00    0.00  132.00    10  21715.00      0.00  461816  136096   0.07  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:27     1000     21726   99.00   48.00    0.00    0.00  147.00    10   6124.00      0.00  473476  151040   0.08  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:28     1000     21726  108.00   60.00    0.00    0.00  168.00    10   7746.00      0.00  489944  171240   0.09  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:29     1000     21726   86.00   53.00    0.00    0.00  139.00    10   9043.00      0.00  506868  188992   0.10  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:30     1000     21726  111.00   59.00    0.00    0.00  170.00    10  31437.00      0.00  509980  193892   0.10  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:31     1000     21726  117.00   62.00    0.00    0.00  179.00    10   4511.00      0.00  506908  195400   0.10  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:32     1000     21726  120.00   69.00    0.00    0.00  189.00    10   9583.00      0.00  523368  218216   0.11  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:33     1000     21726  110.00   64.00    0.00    0.00  174.00    10   3480.00      0.00  523396  218184   0.11  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:34     1000     21726  101.00   51.00    0.00    0.00  152.00    10   7948.00      0.00  550792  247936   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:35     1000     21726  115.00   46.00    0.00    0.00  161.00    10  20416.00      0.00  550792  250236   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:36     1000     21726  115.00   48.00    0.00    0.00  163.00    10   4514.00      0.00  550792  250240   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:37     1000     21726  103.00   57.00    0.00    0.00  160.00    10  20524.00      0.00  550792  244312   0.12  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:38     1000     21726  113.00   47.00    0.00    0.00  160.00    10   3913.00      0.00  550792  245628   0.12  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:39     1000     21726  110.00   55.00    0.00    0.00  165.00    10  18747.00      0.00  550792  244812   0.12  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:40     1000     21726  102.00   43.00    0.00    0.00  145.00    10   2743.00      0.00  550792  246076   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:41     1000     21726   80.00   20.00    0.00    0.00  100.00    10   1649.00      0.00  550792  246080   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:42     1000     21726   76.00   24.00    0.00    0.00  100.00    10   1389.00      0.00  550792  246080   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:43     1000     21726   75.00   25.00    0.00    0.00  100.00    10  17053.00      0.00  550792  246080   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:44     1000     21726   76.00   24.00    0.00    0.00  100.00    10   2344.00      0.00  550792  246084   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:45     1000     21726   73.00   27.00    0.00    0.00  100.00    10   1695.00      0.00  550792  246084   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:46     1000     21726   86.00   14.00    0.00    0.00  100.00    10   1358.00      0.00  550792  246084   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:47     1000     21726   75.00   25.00    0.00    0.00  100.00    10   1170.00      0.00  550792  246088   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:48     1000     21726   79.00   20.00    0.00    0.00   99.00    10  17308.00      0.00  550792  246088   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:49     1000     21726   78.00   23.00    0.00    0.00  101.00    10   2355.00      0.00  550792  246088   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:50     1000     21726   74.00   26.00    0.00    0.00  100.00    10   1577.00      0.00  550792  246092   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:51     1000     21726   79.00   21.00    0.00    0.00  100.00    10   1399.00      0.00  550792  246092   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:52     1000     21726   80.00   20.00    0.00    0.00  100.00    10   1228.00      0.00  550792  246092   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:53     1000     21726   76.00   24.00    0.00    0.00  100.00    10   1023.00      0.00  550792  246096   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:54     1000     21726   71.00   28.00    0.00    0.00   99.00    10  17502.00      0.00  550792  246096   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:55     1000     21726   80.00   21.00    0.00    0.00  101.00    10   2259.00      0.00  550792  246096   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:56     1000     21726   73.00   27.00    0.00    0.00  100.00    10   1635.00      0.00  550792  246096   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:57     1000     21726   80.00   21.00    0.00    0.00  101.00    10   1345.00      0.00  550792  246100   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:58     1000     21726   78.00   21.00    0.00    0.00   99.00    10   1230.00      0.00  550792  246100   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:47:59     1000     21726   78.22   20.79    0.00    0.00   99.01    10   1008.91      0.00  550792  246100   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:00     1000     21726   79.00   22.00    0.00    0.00  101.00    10    932.00      0.00  550792  246104   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:01     1000     21726   80.00   19.00    0.00    0.00   99.00    10  17328.00      0.00  550792  246104   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:02     1000     21726   81.00   19.00    0.00    0.00  100.00    10   2535.00      0.00  550792  246104   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:03     1000     21726   80.00   20.00    0.00    0.00  100.00    10   1682.00      0.00  550792  246108   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:04     1000     21726   79.00   21.00    0.00    0.00  100.00    10   1339.00      0.00  550792  246108   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:05     1000     21726   79.00   21.00    0.00    0.00  100.00     1   1153.00      0.00  550792  246108   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:06     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1035.00      0.00  550792  246112   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:07     1000     21726   76.00   23.00    0.00    0.00   99.00    46    950.00      0.00  550792  246112   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:08     1000     21726   78.00   22.00    0.00    0.00  100.00    46    849.00      0.00  550792  246112   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:09     1000     21726   74.00   26.00    0.00    0.00  100.00    46  17882.00      0.00  550792  246116   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:10     1000     21726   78.00   22.00    0.00    0.00  100.00    46  18440.00      0.00  550792  246116   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:11     1000     21726   80.00   20.00    0.00    0.00  100.00    46   3259.00      0.00  550792  246116   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:12     1000     21726   78.00   22.00    0.00    0.00  100.00    46  18804.00      0.00  550792  246120   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:13     1000     21726   81.00   19.00    0.00    0.00  100.00    46   2192.00      0.00  550792  246120   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:14     1000     21726   77.00   24.00    0.00    0.00  101.00    46  18921.00      0.00  550792  246120   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:15     1000     21726   75.00   25.00    0.00    0.00  100.00    46   2164.00      0.00  550792  246120   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:16     1000     21726   77.00   22.00    0.00    0.00   99.00    46  18919.00      0.00  550792  246124   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:17     1000     21726   75.00   25.00    0.00    0.00  100.00    46   2375.00      0.00  550792  246124   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:18     1000     21726   78.00   23.00    0.00    0.00  101.00    46   8960.00      0.00  550792  246124   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:19     1000     21726   78.00   21.00    0.00    0.00   99.00    46  11921.00      0.00  550792  246128   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:20     1000     21726   81.00   20.00    0.00    0.00  101.00    46   1887.00      0.00  550792  246128   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:21     1000     21726   81.00   18.00    0.00    0.00   99.00    46   1631.00      0.00  550792  246128   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:22     1000     21726   80.00   20.00    0.00    0.00  100.00    46  17638.00      0.00  550792  246132   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:23     1000     21726   79.00   21.00    0.00    0.00  100.00    46   3488.00      0.00  550792  246132   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:24     1000     21726   81.00   20.00    0.00    0.00  101.00    46   1648.00      0.00  550792  246132   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:25     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1406.00      0.00  550792  246136   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:26     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1235.00      0.00  550792  246136   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:27     1000     21726   74.00   25.00    0.00    0.00   99.00    46  18771.00      0.00  550792  246136   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:28     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1984.00      0.00  550792  246136   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:29     1000     21726   80.00   21.00    0.00    0.00  101.00    46   1592.00      0.00  550792  246140   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:30     1000     21726   74.00   26.00    0.00    0.00  100.00    46   1364.00      0.00  550792  246140   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:31     1000     21726   74.00   26.00    0.00    0.00  100.00    46   1160.00      0.00  550792  246140   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:32     1000     21726   69.00   30.00    0.00    0.00   99.00    46  17266.00      0.00  550792  246144   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:33     1000     21726   74.00   27.00    0.00    0.00  101.00    46   3211.00      0.00  550792  246144   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:34     1000     21726   79.00   20.00    0.00    0.00   99.00    46   1694.00      0.00  550792  246144   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:35     1000     21726   70.00   30.00    0.00    0.00  100.00    46   1443.00      0.00  550792  246148   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:36     1000     21726   79.00   22.00    0.00    0.00  101.00    46   1294.00      0.00  550792  246148   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:37     1000     21726   74.00   25.00    0.00    0.00   99.00    46   1099.00      0.00  550792  246148   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:38     1000     21726   78.00   23.00    0.00    0.00  101.00    46    965.00      0.00  550792  246152   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:39     1000     21726   73.00   27.00    0.00    0.00  100.00    46  18733.00      0.00  550792  246152   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:40     1000     21726   78.00   21.00    0.00    0.00   99.00    46   2094.00      0.00  550792  246152   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:41     1000     21726   81.00   19.00    0.00    0.00  100.00    46   1597.00      0.00  550792  246156   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:42     1000     21726   79.00   22.00    0.00    0.00  101.00    46   1306.00      0.00  550792  246156   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:43     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1136.00      0.00  550792  246156   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:44     1000     21726   73.00   27.00    0.00    0.00  100.00    46   1057.00      0.00  550792  246160   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:45     1000     21726   79.00   20.00    0.00    0.00   99.00    46    859.00      0.00  550792  246160   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:46     1000     21726   77.00   23.00    0.00    0.00  100.00    46    817.00      0.00  550792  246160   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:47     1000     21726   73.00   28.00    0.00    0.00  101.00    46  16357.00      0.00  550792  246164   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:48     1000     21726   76.00   24.00    0.00    0.00  100.00    46   4085.00      0.00  550792  246164   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:49     1000     21726   80.00   19.00    0.00    0.00   99.00    46   1847.00      0.00  550792  246164   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:50     1000     21726   79.00   22.00    0.00    0.00  101.00     1   1396.00      0.00  550792  246164   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:51     1000     21726   78.00   21.00    0.00    0.00   99.00    46   1221.00      0.00  550792  246168   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:52     1000     21726   80.00   21.00    0.00    0.00  101.00    46   1120.00      0.00  550792  246168   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:53     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1015.00      0.00  550792  246168   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:54     1000     21726   80.00   20.00    0.00    0.00  100.00    46    869.00      0.00  550792  246172   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:55     1000     21726   78.00   22.00    0.00    0.00  100.00    46    799.00      0.00  550792  246172   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:56     1000     21726   76.00   24.00    0.00    0.00  100.00    46  16451.00      0.00  550792  246172   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:57     1000     21726   75.00   24.00    0.00    0.00   99.00    46   7509.00      0.00  550792  246176   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:58     1000     21726   83.00   18.00    0.00    0.00  101.00    46  16265.00      0.00  550792  246176   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:48:59     1000     21726   75.00   24.00    0.00    0.00   99.00    46  17203.00      0.00  550792  246176   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:00     1000     21726   80.00   21.00    0.00    0.00  101.00    46   4464.00      0.00  550792  246180   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:01     1000     21726   72.00   27.00    0.00    0.00   99.00    46  13631.00      0.00  550792  246180   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:02     1000     21726   78.00   22.00    0.00    0.00  100.00    46   7842.00      0.00  550792  246180   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:03     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1948.00      0.00  550792  246184   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:04     1000     21726   75.00   25.00    0.00    0.00  100.00    46  15886.00      0.00  550792  246184   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:05     1000     21726   81.00   20.00    0.00    0.00  101.00    46   5500.00      0.00  550792  246184   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:06     1000     21726   75.00   24.00    0.00    0.00   99.00    46   1833.00      0.00  550792  246188   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:07     1000     21726   77.00   24.00    0.00    0.00  101.00    46   1498.00      0.00  550792  246188   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:08     1000     21726   80.00   20.00    0.00    0.00  100.00    46  18226.00      0.00  550792  246188   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:09     1000     21726   74.00   25.00    0.00    0.00   99.00    46   3163.00      0.00  550792  246192   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:10     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1665.00      0.00  550792  246192   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:11     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1340.00      0.00  550792  246192   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:12     1000     21726   79.00   22.00    0.00    0.00  101.00    46   1226.00      0.00  550792  246192   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:13     1000     21726   72.00   28.00    0.00    0.00  100.00    46  19116.00      0.00  550792  246196   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:14     1000     21726   80.00   19.00    0.00    0.00   99.00    46   2497.00      0.00  550792  246196   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:15     1000     21726   81.00   19.00    0.00    0.00  100.00    46   1631.00      0.00  550792  246196   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:16     1000     21726   78.00   22.00    0.00    0.00  100.00    46   1402.00      0.00  550792  246200   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:17     1000     21726   78.00   23.00    0.00    0.00  101.00    46   1189.00      0.00  550792  246200   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:18     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1028.00      0.00  550792  246200   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:19     1000     21726   74.00   25.00    0.00    0.00   99.00    46  17500.00      0.00  550792  246204   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:20     1000     21726   72.00   28.00    0.00    0.00  100.00    46   3930.00      0.00  550792  246204   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:21     1000     21726   78.00   23.00    0.00    0.00  101.00    46   1751.00      0.00  550792  246204   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:22     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1423.00      0.00  550792  246208   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:23     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1200.00      0.00  550792  246208   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:24     1000     21726   82.00   18.00    0.00    0.00  100.00    46   1084.00      0.00  550792  246208   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:25     1000     21726   82.00   18.00    0.00    0.00  100.00    46    922.00      0.00  550792  246212   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:26     1000     21726   78.00   22.00    0.00    0.00  100.00    46    907.00      0.00  550792  246212   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:27     1000     21726   79.00   21.00    0.00    0.00  100.00    46  15137.00      0.00  550792  246212   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:28     1000     21726   79.00   21.00    0.00    0.00  100.00    46   6058.00      0.00  550792  246212   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:29     1000     21726   81.00   19.00    0.00    0.00  100.00    46   1775.00      0.00  550792  246216   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:30     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1384.00      0.00  550792  246216   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:31     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1321.00      0.00  550792  246216   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:32     1000     21726   74.00   26.00    0.00    0.00  100.00    46   1112.00      0.00  550792  246220   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:33     1000     21726   78.00   22.00    0.00    0.00  100.00    46   1015.00      0.00  550792  246220   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:34     1000     21726   77.00   23.00    0.00    0.00  100.00    46    916.00      0.00  550792  246220   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:35     1000     21726   79.00   21.00    0.00    0.00  100.00    46    817.00      0.00  550792  246224   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:36     1000     21726   76.00   23.00    0.00    0.00   99.00    46  15099.00      0.00  550792  246224   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:37     1000     21726   78.00   22.00    0.00    0.00  100.00    46  20353.00      0.00  550792  246224   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:38     1000     21726   75.00   26.00    0.00    0.00  101.00    46   6194.00      0.00  550792  246228   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:39     1000     21726   75.00   24.00    0.00    0.00   99.00    46  20162.00      0.00  550792  246228   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:40     1000     21726   75.00   26.00    0.00    0.00  101.00    46  16106.00      0.00  550792  246228   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:41     1000     21726   79.00   21.00    0.00    0.00  100.00    46   6578.00      0.00  550792  246228   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:42     1000     21726   78.00   21.00    0.00    0.00   99.00    46   1943.00      0.00  550792  246232   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:43     1000     21726   75.00   26.00    0.00    0.00  101.00    46  20393.00      0.00  550792  246232   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:44     1000     21726   80.00   19.00    0.00    0.00   99.00    46   2141.00      0.00  550792  246236   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:45     1000     21726   76.00   24.00    0.00    0.00  100.00    46  13740.00      0.00  550792  246236   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:46     1000     21726   79.00   21.00    0.00    0.00  100.00    46   8310.00      0.00  550792  246236   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:47     1000     21726   78.00   22.00    0.00    0.00  100.00    46   2074.00      0.00  550792  246236   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:48     1000     21726   71.29   28.71    0.00    0.00  100.00    46  13558.42      0.00  550792  246240   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:49     1000     21726   74.00   25.00    0.00    0.00   99.00    46   8422.00      0.00  550792  246240   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:50     1000     21726   84.00   17.00    0.00    0.00  101.00    46  20418.00      0.00  550792  246240   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:51     1000     21726   76.00   24.00    0.00    0.00  100.00    46  14454.00      0.00  550792  246244   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:52     1000     21726   74.00   26.00    0.00    0.00  100.00    46   8653.00      0.00  550792  246244   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:53     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1873.00      0.00  550792  246244   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:54     1000     21726   74.00   26.00    0.00    0.00  100.00    46  20364.00      0.00  550792  246248   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:55     1000     21726   80.00   20.00    0.00    0.00  100.00    46   2201.00      0.00  550792  246248   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:56     1000     21726   75.00   25.00    0.00    0.00  100.00    46  10344.00      0.00  550792  246248   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:57     1000     21726   77.00   23.00    0.00    0.00  100.00    46  12000.00      0.00  550792  246252   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:58     1000     21726   74.00   25.00    0.00    0.00   99.00    46   2049.00      0.00  550792  246252   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:49:59     1000     21726   74.00   27.00    0.00    0.00  101.00    46   1511.00      0.00  550792  246252   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:00     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1246.00      0.00  550792  246256   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:01     1000     21726   74.00   26.00    0.00    0.00  100.00    46   1086.00      0.00  550792  246256   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:02     1000     21726   77.00   22.00    0.00    0.00   99.00    46   1017.00      0.00  550792  246256   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:03     1000     21726   75.00   26.00    0.00    0.00  101.00    46    933.00      0.00  550792  246260   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:04     1000     21726   75.00   25.00    0.00    0.00  100.00    46    818.00      0.00  550792  246260   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:05     1000     21726   77.00   23.00    0.00    0.00  100.00    46    686.00      0.00  550792  246260   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:06     1000     21726   76.00   23.00    0.00    0.00   99.00    46    657.00      0.00  550792  246260   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:07     1000     21726   83.00   18.00    0.00    0.00  101.00    46    623.00      0.00  550792  246264   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:08     1000     21726   73.00   26.00    0.00    0.00   99.00    46  19421.00      0.00  550792  246264   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:09     1000     21726   84.00   17.00    0.00    0.00  101.00    46   3020.00      0.00  550792  246264   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:10     1000     21726   78.00   22.00    0.00    0.00  100.00    46   1687.00      0.00  550792  246268   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:11     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1423.00      0.00  550792  246268   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:12     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1179.00      0.00  550792  246268   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:13     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1043.00      0.00  550792  246272   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:14     1000     21726   79.00   21.00    0.00    0.00  100.00    46    939.00      0.00  550792  246272   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:15     1000     21726   79.00   21.00    0.00    0.00  100.00    46    835.00      0.00  550792  246272   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:16     1000     21726   81.00   19.00    0.00    0.00  100.00    46    800.00      0.00  550792  246276   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:17     1000     21726   81.00   19.00    0.00    0.00  100.00    46    706.00      0.00  550792  246276   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:18     1000     21726   75.00   25.00    0.00    0.00  100.00    46    619.00      0.00  550792  246276   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:19     1000     21726   84.00   16.00    0.00    0.00  100.00    46    570.00      0.00  550792  246280   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:20     1000     21726   80.00   20.00    0.00    0.00  100.00    46    538.00      0.00  550792  246280   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:21     1000     21726   78.00   22.00    0.00    0.00  100.00    46    446.00      0.00  550792  246280   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:22     1000     21726   77.00   23.00    0.00    0.00  100.00    46    467.00      0.00  550792  246284   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:23     1000     21726   77.00   23.00    0.00    0.00  100.00    46    419.00      0.00  550792  246284   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:24     1000     21726   81.00   19.00    0.00    0.00  100.00    46    389.00      0.00  550792  246284   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:25     1000     21726   77.00   23.00    0.00    0.00  100.00    46    360.00      0.00  550792  246288   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:26     1000     21726   72.00   28.00    0.00    0.00  100.00    46    344.00      0.00  550792  246288   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:27     1000     21726   82.00   18.00    0.00    0.00  100.00    46    307.00      0.00  550792  246288   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:28     1000     21726   75.00   24.00    0.00    0.00   99.00    46    303.00      0.00  550792  246292   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:29     1000     21726   80.00   21.00    0.00    0.00  101.00    46    290.00      0.00  550792  246292   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:30     1000     21726   78.00   22.00    0.00    0.00  100.00    46    263.00      0.00  550792  246292   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:31     1000     21726   72.00   27.00    0.00    0.00   99.00    46  20524.00      0.00  550792  246296   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:32     1000     21726   79.00   22.00    0.00    0.00  101.00    46   2625.00      0.00  550792  246296   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:33     1000     21726   82.00   18.00    0.00    0.00  100.00    46   1584.00      0.00  550792  246296   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:34     1000     21726   80.00   20.00    0.00    0.00  100.00    46   1362.00      0.00  550792  246296   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:35     1000     21726   74.00   26.00    0.00    0.00  100.00    46   1165.00      0.00  550792  246300   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:36     1000     21726   81.00   18.00    0.00    0.00   99.00    46   1048.00      0.00  550792  246300   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:37     1000     21726   74.00   27.00    0.00    0.00  101.00    46    921.00      0.00  550792  246300   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:38     1000     21726   74.00   25.00    0.00    0.00   99.00    46    799.00      0.00  550792  246304   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:39     1000     21726   78.00   23.00    0.00    0.00  101.00    46    761.00      0.00  550792  246304   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:40     1000     21726   76.00   23.00    0.00    0.00   99.00    46    693.00      0.00  550792  246304   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:41     1000     21726   79.00   22.00    0.00    0.00  101.00    46    573.00      0.00  550792  246308   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:42     1000     21726   77.00   23.00    0.00    0.00  100.00    46    584.00      0.00  550792  246308   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:43     1000     21726   80.00   20.00    0.00    0.00  100.00    46    558.00      0.00  550792  246308   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:44     1000     21726   80.00   20.00    0.00    0.00  100.00    46    470.00      0.00  550792  246312   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:45     1000     21726   76.00   23.00    0.00    0.00   99.00    46    477.00      0.00  550792  246312   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:46     1000     21726   79.00   22.00    0.00    0.00  101.00    46    411.00      0.00  550792  246312   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:47     1000     21726   77.00   23.00    0.00    0.00  100.00    46    386.00      0.00  550792  246316   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:48     1000     21726   80.00   20.00    0.00    0.00  100.00    46    380.00      0.00  550792  246316   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:49     1000     21726   77.00   23.00    0.00    0.00  100.00    46    321.00      0.00  550792  246316   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:50     1000     21726   73.00   27.00    0.00    0.00  100.00    46    302.00      0.00  550792  246320   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:51     1000     21726   86.00   15.00    0.00    0.00  101.00    46    257.00      0.00  550792  246320   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:52     1000     21726   81.00   18.00    0.00    0.00   99.00    46    276.00      0.00  550792  246320   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:53     1000     21726   81.00   20.00    0.00    0.00  101.00    46    248.00      0.00  550792  246320   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:54     1000     21726   74.00   25.00    0.00    0.00   99.00    46    225.00      0.00  550792  246324   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:55     1000     21726   78.00   22.00    0.00    0.00  100.00    46    199.00      0.00  550792  246324   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:56     1000     21726   75.00   25.00    0.00    0.00  100.00    46    219.00      0.00  550792  246324   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:57     1000     21726   79.00   21.00    0.00    0.00  100.00    46    205.00      0.00  550792  246328   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:58     1000     21726   80.00   20.00    0.00    0.00  100.00    46    173.00      0.00  550792  246328   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:50:59     1000     21726   80.00   21.00    0.00    0.00  101.00    46    165.00      0.00  550792  246328   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:00     1000     21726   71.00   28.00    0.00    0.00   99.00     1  12042.00      0.00  550792  246328   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:01     1000     21726   79.00   21.00    0.00    0.00  100.00    46  10113.00      0.00  550792  246332   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:02     1000     21726   77.00   23.00    0.00    0.00  100.00    46   2099.00      0.00  550792  246332   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:03     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1498.00      0.00  550792  246332   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:04     1000     21726   75.00   25.00    0.00    0.00  100.00    46   1303.00      0.00  550792  246336   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:05     1000     21726   77.00   23.00    0.00    0.00  100.00    46  21408.00      0.00  550792  246336   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:06     1000     21726   80.00   20.00    0.00    0.00  100.00    46   2694.00      0.00  550792  246336   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:07     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1639.00      0.00  550792  246340   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:08     1000     21726   80.00   20.00    0.00    0.00  100.00    46   1371.00      0.00  550792  246340   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:09     1000     21726   80.00   20.00    0.00    0.00  100.00    46  21404.00      0.00  550792  246340   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:10     1000     21726   76.00   24.00    0.00    0.00  100.00    46   2730.00      0.00  550792  246344   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:11     1000     21726   77.00   24.00    0.00    0.00  101.00    46   1617.00      0.00  550792  246344   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:12     1000     21726   73.00   26.00    0.00    0.00   99.00    46   1360.00      0.00  550792  246344   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:13     1000     21726   80.00   20.00    0.00    0.00  100.00    46   1142.00      0.00  550792  246348   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:14     1000     21726   79.00   21.00    0.00    0.00  100.00    46   1007.00      0.00  550792  246348   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:15     1000     21726   79.00   20.00    0.00    0.00   99.00    46    907.00      0.00  550792  246348   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:16     1000     21726   76.00   24.00    0.00    0.00  100.00    46    850.00      0.00  550792  246352   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:17     1000     21726   73.00   28.00    0.00    0.00  101.00    46    778.00      0.00  550792  246352   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:18     1000     21726   79.00   21.00    0.00    0.00  100.00    46    710.00      0.00  550792  246352   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:19     1000     21726   82.00   17.00    0.00    0.00   99.00    46    604.00      0.00  550792  246356   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:20     1000     21726   77.00   24.00    0.00    0.00  101.00    46    580.00      0.00  550792  246356   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:21     1000     21726   79.00   21.00    0.00    0.00  100.00    46    480.00      0.00  550792  246356   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:22     1000     21726   74.00   25.00    0.00    0.00   99.00    46    466.00      0.00  550792  246356   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:23     1000     21726   77.00   24.00    0.00    0.00  101.00    46    458.00      0.00  550792  246360   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:24     1000     21726   75.00   25.00    0.00    0.00  100.00    46    402.00      0.00  550792  246360   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:25     1000     21726   75.00   25.00    0.00    0.00  100.00    46  21472.00      0.00  550792  246360   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:26     1000     21726   75.00   25.00    0.00    0.00  100.00    46   2821.00      0.00  550792  246364   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:27     1000     21726   72.00   27.00    0.00    0.00   99.00    46   1541.00      0.00  550792  246364   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:28     1000     21726   81.00   20.00    0.00    0.00  101.00    46   1353.00      0.00  550792  246364   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:29     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1099.00      0.00  550792  246368   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:30     1000     21726   80.00   19.00    0.00    0.00   99.00    46   1046.00      0.00  550792  246368   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:31     1000     21726   77.00   24.00    0.00    0.00  101.00    46    970.00      0.00  550792  246368   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:32     1000     21726   77.00   23.00    0.00    0.00  100.00    46    849.00      0.00  550792  246368   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:33     1000     21726   79.00   21.00    0.00    0.00  100.00    46    718.00      0.00  550792  246372   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:34     1000     21726   81.00   18.00    0.00    0.00   99.00    46    661.00      0.00  550792  246372   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:35     1000     21726   76.00   24.00    0.00    0.00  100.00    46    599.00      0.00  550792  246372   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:36     1000     21726   77.00   24.00    0.00    0.00  101.00    46    553.00      0.00  550792  246376   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:37     1000     21726   78.00   22.00    0.00    0.00  100.00    46    497.00      0.00  550792  246376   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:38     1000     21726   75.00   25.00    0.00    0.00  100.00    46    492.00      0.00  550792  246376   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:39     1000     21726   72.00   27.00    0.00    0.00   99.00    46    456.00      0.00  550792  246380   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:40     1000     21726   79.00   22.00    0.00    0.00  101.00    46    407.00      0.00  550792  246380   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:41     1000     21726   82.00   18.00    0.00    0.00  100.00    46    415.00      0.00  550792  246380   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:42     1000     21726   79.00   21.00    0.00    0.00  100.00    46    352.00      0.00  550792  246380   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:43     1000     21726   75.25   23.76    0.00    0.00   99.01    46    349.50      0.00  550792  246384   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:44     1000     21726   82.00   18.00    0.00    0.00  100.00    46    315.00      0.00  550792  246384   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:45     1000     21726   80.00   20.00    0.00    0.00  100.00    46    309.00      0.00  550792  246384   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:46     1000     21726   78.00   22.00    0.00    0.00  100.00    46    262.00      0.00  550792  246388   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:47     1000     21726   79.00   21.00    0.00    0.00  100.00    46    278.00      0.00  550792  246388   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:48     1000     21726   79.00   22.00    0.00    0.00  101.00    46    273.00      0.00  550792  246388   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:49     1000     21726   80.00   20.00    0.00    0.00  100.00    46    225.00      0.00  550792  246392   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:50     1000     21726   75.00   24.00    0.00    0.00   99.00    46    207.00      0.00  550792  246392   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:51     1000     21726   75.00   25.00    0.00    0.00  100.00    46    196.00      0.00  550792  246392   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:52     1000     21726   76.00   24.00    0.00    0.00  100.00    46    163.00      0.00  550792  246396   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:53     1000     21726   75.00   25.00    0.00    0.00  100.00    46    178.00      0.00  550792  246396   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:54     1000     21726   77.00   23.00    0.00    0.00  100.00    46    176.00      0.00  550792  246396   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:55     1000     21726   79.00   21.00    0.00    0.00  100.00    46    148.00      0.00  550792  246400   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:56     1000     21726   78.00   22.00    0.00    0.00  100.00    46    163.00      0.00  550792  246400   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:57     1000     21726   77.00   23.00    0.00    0.00  100.00    46  22000.00      0.00  550792  246400   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:58     1000     21726   77.00   23.00    0.00    0.00  100.00    46   2961.00      0.00  550792  246404   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:51:59     1000     21726   82.00   18.00    0.00    0.00  100.00    46   1664.00      0.00  550792  246404   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:00     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1352.00      0.00  550792  246404   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:01     1000     21726   79.00   22.00    0.00    0.00  101.00    46   1208.00      0.00  550792  246408   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:02     1000     21726   74.00   25.00    0.00    0.00   99.00    46   1022.00      0.00  550792  246408   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:03     1000     21726   78.00   22.00    0.00    0.00  100.00    46    909.00      0.00  550792  246408   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:04     1000     21726   70.00   30.00    0.00    0.00  100.00    46    830.00      0.00  550792  246408   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:05     1000     21726   79.00   21.00    0.00    0.00  100.00    46    748.00      0.00  550792  246412   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:06     1000     21726   73.00   27.00    0.00    0.00  100.00    46    635.00      0.00  550792  246412   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:07     1000     21726   77.00   23.00    0.00    0.00  100.00    46    597.00      0.00  550792  246412   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:08     1000     21726   76.00   24.00    0.00    0.00  100.00    46    584.00      0.00  550792  246416   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:09     1000     21726   78.00   22.00    0.00    0.00  100.00    46    554.00      0.00  550792  246416   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:10     1000     21726   78.00   22.00    0.00    0.00  100.00    46    485.00      0.00  550792  246416   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:11     1000     21726   73.00   27.00    0.00    0.00  100.00    46    455.00      0.00  550792  246420   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:12     1000     21726   79.00   21.00    0.00    0.00  100.00    46    378.00      0.00  550792  246420   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:13     1000     21726   81.00   19.00    0.00    0.00  100.00    46    398.00      0.00  550792  246420   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:14     1000     21726   79.00   21.00    0.00    0.00  100.00    46    327.00      0.00  550792  246420   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:15     1000     21726   80.00   20.00    0.00    0.00  100.00    46    356.00      0.00  550792  246424   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:16     1000     21726   81.00   19.00    0.00    0.00  100.00    46    317.00      0.00  550792  246424   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:17     1000     21726   80.00   20.00    0.00    0.00  100.00    46    309.00      0.00  550792  246424   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:18     1000     21726   81.00   19.00    0.00    0.00  100.00    46    274.00      0.00  550792  246428   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:19     1000     21726   79.00   21.00    0.00    0.00  100.00    46    285.00      0.00  550792  246428   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:20     1000     21726   77.00   23.00    0.00    0.00  100.00    46    227.00      0.00  550792  246428   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:21     1000     21726   78.00   22.00    0.00    0.00  100.00    46    217.00      0.00  550792  246432   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:22     1000     21726   80.00   20.00    0.00    1.00  100.00    46    206.00      0.00  550792  246432   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:23     1000     21726   79.00   21.00    0.00    0.00  100.00    46    179.00      0.00  550792  246432   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:24     1000     21726   77.00   23.00    0.00    0.00  100.00    46    164.00      0.00  550792  246436   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:25     1000     21726   78.00   22.00    0.00    0.00  100.00    46    169.00      0.00  550792  246436   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:26     1000     21726   78.00   22.00    0.00    0.00  100.00    46    155.00      0.00  550792  246436   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:27     1000     21726   81.00   20.00    0.00    0.00  101.00    46    143.00      0.00  550792  246436   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:28     1000     21726   79.00   21.00    0.00    0.00  100.00    46    156.00      0.00  550792  246440   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:29     1000     21726   77.00   23.00    0.00    0.00  100.00    46    133.00      0.00  550792  246440   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:30     1000     21726   79.00   21.00    0.00    0.00  100.00    46    116.00      0.00  550792  246440   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:31     1000     21726   77.00   22.00    0.00    0.00   99.00    46    114.00      0.00  550792  246440   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:32     1000     21726   80.00   20.00    0.00    0.00  100.00    46    104.00      0.00  550792  246444   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:33     1000     21726   79.00   21.00    0.00    0.00  100.00    46    100.00      0.00  550792  246444   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:34     1000     21726   75.00   26.00    0.00    0.00  101.00    46    117.00      0.00  550792  246444   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:35     1000     21726   77.00   23.00    0.00    0.00  100.00    46     95.00      0.00  550792  246448   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:36     1000     21726   77.00   22.00    0.00    0.00   99.00    46    104.00      0.00  550792  246448   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:37     1000     21726   77.00   23.00    0.00    0.00  100.00    46     71.00      0.00  550792  246448   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:38     1000     21726   79.00   22.00    0.00    0.00  101.00    46     85.00      0.00  550792  246452   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:39     1000     21726   78.00   22.00    0.00    0.00  100.00    46     87.00      0.00  550792  246452   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:40     1000     21726   80.00   19.00    0.00    0.00   99.00    46     89.00      0.00  550792  246452   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:41     1000     21726   78.00   23.00    0.00    0.00  101.00    46     65.00      0.00  550792  246452   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:42     1000     21726   77.00   22.00    0.00    0.00   99.00    46     73.00      0.00  550792  246456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:43     1000     21726   80.00   21.00    0.00    0.00  101.00    46     63.00      0.00  550792  246456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:44     1000     21726   78.00   21.00    0.00    0.00   99.00    46     55.00      0.00  550792  246456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:45     1000     21726   84.00   16.00    0.00    0.00  100.00    46     68.00      0.00  550792  246460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:46     1000     21726   78.00   22.00    0.00    0.00  100.00    46     56.00      0.00  550792  246460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:47     1000     21726   81.00   20.00    0.00    0.00  101.00    46     59.00      0.00  550792  246460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:48     1000     21726   79.00   20.00    0.00    0.00   99.00    46     58.00      0.00  550792  246464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:49     1000     21726   76.00   24.00    0.00    0.00  100.00    46     61.00      0.00  550792  246464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:50     1000     21726   80.00   20.00    0.00    0.00  100.00    46     78.00      0.00  550792  246464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:51     1000     21726   78.00   22.00    0.00    0.00  100.00    46     76.00      0.00  550792  246468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:52     1000     21726   82.00   18.00    0.00    0.00  100.00    46     51.00      0.00  550792  246468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:53     1000     21726   83.00   18.00    0.00    0.00  101.00    46     43.00      0.00  550792  246472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:54     1000     21726   77.00   22.00    0.00    0.00   99.00    46     33.00      0.00  550792  246472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:55     1000     21726   81.00   19.00    0.00    0.00  100.00    46     32.00      0.00  550792  246472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:56     1000     21726   83.00   17.00    0.00    0.00  100.00    46     45.00      0.00  550792  246472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:57     1000     21726   75.00   25.00    0.00    0.00  100.00    46     32.00      0.00  550792  246476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:58     1000     21726   79.00   21.00    0.00    0.00  100.00    46     39.00      0.00  550792  246476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:52:59     1000     21726   75.00   25.00    0.00    0.00  100.00    46     31.00      0.00  550792  246476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:00     1000     21726   84.00   16.00    0.00    0.00  100.00    46     33.00      0.00  550792  246476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:01     1000     21726   76.00   24.00    0.00    0.00  100.00    46  23259.00      0.00  550792  246480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:02     1000     21726   74.00   26.00    0.00    0.00  100.00    46   2938.00      0.00  550792  246480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:03     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1641.00      0.00  550792  246480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:04     1000     21726   78.00   22.00    0.00    0.00  100.00    46   1333.00      0.00  550792  246484   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:05     1000     21726   76.00   25.00    0.00    0.00  101.00    46   1200.00      0.00  550792  246484   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:06     1000     21726   72.00   28.00    0.00    0.00  100.00    46   1050.00      0.00  550792  246484   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:07     1000     21726   79.00   20.00    0.00    0.00   99.00    46    885.00      0.00  550792  246488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:08     1000     21726   74.00   26.00    0.00    0.00  100.00    46    841.00      0.00  550792  246488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:09     1000     21726   81.00   20.00    0.00    0.00  101.00    46    756.00      0.00  550792  246488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:10     1000     21726   79.00   20.00    0.00    0.00   99.00    46    704.00      0.00  550792  246492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:11     1000     21726   77.00   24.00    0.00    0.00  101.00    46    613.00      0.00  550792  246492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:12     1000     21726   80.00   20.00    0.00    0.00  100.00    46    572.00      0.00  550792  246492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:13     1000     21726   79.00   21.00    0.00    0.00  100.00    46    521.00      0.00  550792  246496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:14     1000     21726   81.00   19.00    0.00    0.00  100.00    46    509.00      0.00  550792  246496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:15     1000     21726   78.00   22.00    0.00    0.00  100.00    46    432.00      0.00  550792  246496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:16     1000     21726   82.00   17.00    0.00    0.00   99.00    46    419.00      0.00  550792  246500   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:17     1000     21726   81.00   19.00    0.00    0.00  100.00    46    388.00      0.00  550792  246500   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:18     1000     21726   74.00   26.00    0.00    0.00  100.00    46    359.00      0.00  550792  246500   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:19     1000     21726   75.00   25.00    0.00    0.00  100.00    46    310.00      0.00  550792  246504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:20     1000     21726   74.00   26.00    0.00    0.00  100.00    46    311.00      0.00  550792  246504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:21     1000     21726   80.00   20.00    0.00    0.00  100.00    46    319.00      0.00  550792  246504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:22     1000     21726   74.00   26.00    0.00    0.00  100.00    46    299.00      0.00  550792  246504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:23     1000     21726   79.00   21.00    0.00    0.00  100.00    46    271.00      0.00  550792  246508   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:24     1000     21726   82.00   19.00    0.00    0.00  101.00    46    246.00      0.00  550792  246508   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:25     1000     21726   77.00   23.00    0.00    0.00  100.00    46    218.00      0.00  550792  246508   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:26     1000     21726   77.00   22.00    0.00    0.00   99.00    46    182.00      0.00  550792  246512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:27     1000     21726   77.00   23.00    0.00    0.00  100.00    46    202.00      0.00  550792  246512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:28     1000     21726   80.00   21.00    0.00    0.00  101.00    46    191.00      0.00  550792  246512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:29     1000     21726   80.00   20.00    0.00    0.00  100.00    46    160.00      0.00  550792  246516   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:30     1000     21726   76.00   24.00    0.00    0.00  100.00    46    177.00      0.00  550792  246516   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:31     1000     21726   81.00   19.00    0.00    0.00  100.00    46    150.00      0.00  550792  246516   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:32     1000     21726   77.00   22.00    0.00    0.00   99.00    46    161.00      0.00  550792  246520   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:33     1000     21726   79.21   19.80    0.00    0.00   99.01    46    137.62      0.00  550792  246520   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:34     1000     21726   75.00   25.00    0.00    0.00  100.00    46    133.00      0.00  550792  246520   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:35     1000     21726   82.00   18.00    0.00    0.00  100.00    46    121.00      0.00  550792  246520   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:36     1000     21726   74.00   27.00    0.00    0.00  101.00    46    131.00      0.00  550792  246524   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:37     1000     21726   79.00   20.00    0.00    0.00   99.00    46     99.00      0.00  550792  246524   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:38     1000     21726   78.00   22.00    0.00    0.00  100.00    46    111.00      0.00  550792  246524   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:39     1000     21726   77.00   24.00    0.00    0.00  101.00    46     97.00      0.00  550792  246528   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:40     1000     21726   78.00   21.00    0.00    0.00   99.00    46    105.00      0.00  550792  246528   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:41     1000     21726   80.00   20.00    0.00    0.00  100.00    46    104.00      0.00  550792  246528   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:42     1000     21726   74.00   26.00    0.00    0.00  100.00    46     80.00      0.00  550792  246532   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:43     1000     21726   79.00   21.00    0.00    0.00  100.00    46     72.00      0.00  550792  246532   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:44     1000     21726   77.00   23.00    0.00    0.00  100.00    46     86.00      0.00  550792  246532   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:45     1000     21726   81.00   19.00    0.00    0.00  100.00    46     67.00      0.00  550792  246532   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:46     1000     21726   83.00   18.00    0.00    0.00  101.00    46     63.00      0.00  550792  246536   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:47     1000     21726   79.00   20.00    0.00    0.00   99.00    46     64.00      0.00  550792  246536   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:48     1000     21726   83.00   17.00    0.00    0.00  100.00    46     55.00      0.00  550792  246536   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:49     1000     21726   79.00   21.00    0.00    0.00  100.00    46     57.00      0.00  550792  246536   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:50     1000     21726   79.00   22.00    0.00    0.00  101.00    46     59.00      0.00  550792  246540   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:51     1000     21726   78.00   21.00    0.00    0.00   99.00    46     60.00      0.00  550792  246540   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:52     1000     21726   82.00   18.00    0.00    0.00  100.00    46     54.00      0.00  550792  246540   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:53     1000     21726   77.00   24.00    0.00    0.00  101.00    46     52.00      0.00  550792  246544   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:54     1000     21726   78.00   22.00    0.00    0.00  100.00    46     59.00      0.00  550792  246544   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:55     1000     21726   75.00   24.00    0.00    0.00   99.00    46     52.00      0.00  550792  246544   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:56     1000     21726   76.00   24.00    0.00    0.00  100.00    46     46.00      0.00  550792  246548   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:57     1000     21726   75.00   25.00    0.00    0.00  100.00    46     41.00      0.00  550792  246548   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:58     1000     21726   77.00   24.00    0.00    0.00  101.00    46     43.00      0.00  550792  246548   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:53:59     1000     21726   75.00   24.00    0.00    0.00   99.00    46     47.00      0.00  550792  246552   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:00     1000     21726   82.00   19.00    0.00    0.00  101.00    46     52.00      0.00  550792  246552   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:01     1000     21726   75.00   25.00    0.00    0.00  100.00    46  24405.00      0.00  550792  246556   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:02     1000     21726   73.00   26.00    0.00    0.00   99.00    46   3167.00      0.00  550792  246556   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:03     1000     21726   80.00   21.00    0.00    0.00  101.00    46   1703.00      0.00  550792  246556   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:04     1000     21726   78.00   21.00    0.00    0.00   99.00    46   1348.00      0.00  550792  246556   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:05     1000     21726   76.00   24.00    0.00    0.00  100.00    46   1146.00      0.00  550792  246560   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:06     1000     21726   79.00   22.00    0.00    0.00  101.00    46   1053.00      0.00  550792  246560   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:07     1000     21726   80.00   20.00    0.00    0.00  100.00    46    910.00      0.00  550792  246560   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:08     1000     21726   79.00   21.00    0.00    0.00  100.00    46    775.00      0.00  550792  246564   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:09     1000     21726   82.00   17.00    0.00    0.00   99.00    46    728.00      0.00  550792  246564   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:10     1000     21726   84.00   16.00    0.00    0.00  100.00    46    751.00      0.00  550792  246564   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:11     1000     21726   79.00   21.00    0.00    0.00  100.00    46    649.00      0.00  550792  246568   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:12     1000     21726   80.00   20.00    0.00    0.00  100.00    46    546.00      0.00  550792  246568   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:13     1000     21726   82.00   18.00    0.00    0.00  100.00    46    534.00      0.00  550792  246568   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:14     1000     21726   79.00   21.00    0.00    0.00  100.00    46    472.00      0.00  550792  246572   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:15     1000     21726   76.00   24.00    0.00    0.00  100.00    46    422.00      0.00  550792  246572   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:16     1000     21726   82.00   19.00    0.00    0.00  101.00    46    410.00      0.00  550792  246572   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:17     1000     21726   82.00   18.00    0.00    0.00  100.00    46    399.00      0.00  550792  246576   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:18     1000     21726   82.00   18.00    0.00    0.00  100.00    46    363.00      0.00  550792  246576   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:19     1000     21726   78.00   22.00    0.00    0.00  100.00    46    337.00      0.00  550792  246576   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:20     1000     21726   79.00   21.00    0.00    0.00  100.00    46    304.00      0.00  550792  246580   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:21     1000     21726   78.00   22.00    0.00    0.00  100.00    46    297.00      0.00  550792  246580   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:22     1000     21726   78.00   21.00    0.00    0.00   99.00    46    271.00      0.00  550792  246580   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:23     1000     21726   78.00   23.00    0.00    0.00  101.00    46    270.00      0.00  550792  246584   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:24     1000     21726   81.00   18.00    0.00    0.00   99.00    46    231.00      0.00  550792  246584   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:25     1000     21726   73.00   27.00    0.00    0.00  100.00    46    228.00      0.00  550792  246584   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:26     1000     21726   78.00   22.00    0.00    0.00  100.00    46    191.00      0.00  550792  246584   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:27     1000     21726   77.00   23.00    0.00    0.00  100.00    46    205.00      0.00  550792  246588   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:28     1000     21726   79.00   21.00    0.00    0.00  100.00    46    187.00      0.00  550792  246588   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:29     1000     21726   75.00   25.00    0.00    0.00  100.00    46    185.00      0.00  550792  246588   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:30     1000     21726   80.00   20.00    0.00    0.00  100.00    46    166.00      0.00  550792  246592   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:31     1000     21726   77.00   23.00    0.00    0.00  100.00    46    153.00      0.00  550792  246592   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:32     1000     21726   79.00   21.00    0.00    0.00  100.00    46    159.00      0.00  550792  246592   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:33     1000     21726   78.00   22.00    0.00    0.00  100.00    46    128.00      0.00  550792  246592   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:34     1000     21726   78.00   22.00    0.00    0.00  100.00    46    145.00      0.00  550792  246596   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:35     1000     21726   76.00   25.00    0.00    0.00  101.00    46    124.00      0.00  550792  246596   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:36     1000     21726   78.00   22.00    0.00    0.00  100.00    46    122.00      0.00  550792  246596   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:37     1000     21726   79.00   21.00    0.00    0.00  100.00    46    110.00      0.00  550792  246600   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:38     1000     21726   79.00   21.00    0.00    0.00  100.00    46    111.00      0.00  550792  246600   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:39     1000     21726   78.00   21.00    0.00    0.00   99.00    46     98.00      0.00  550792  246600   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:40     1000     21726   80.00   21.00    0.00    0.00  101.00    46     95.00      0.00  550792  246604   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:41     1000     21726   77.00   23.00    0.00    0.00  100.00    46     96.00      0.00  550792  246604   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:42     1000     21726   76.00   24.00    0.00    0.00  100.00    46     70.00      0.00  550792  246604   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:43     1000     21726   76.00   24.00    0.00    0.00  100.00    46     83.00      0.00  550792  246604   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:44     1000     21726   80.00   20.00    0.00    0.00  100.00    46     83.00      0.00  550792  246608   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:45     1000     21726   79.00   20.00    0.00    0.00   99.00    46     81.00      0.00  550792  246608   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:46     1000     21726   72.00   29.00    0.00    0.00  101.00    46     88.00      0.00  550792  246612   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:47     1000     21726   78.00   21.00    0.00    0.00   99.00    46     56.00      0.00  550792  246612   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:48     1000     21726   74.00   27.00    0.00    0.00  101.00    46     62.00      0.00  550792  246612   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:49     1000     21726   76.00   24.00    0.00    0.00  100.00    46     63.00      0.00  550792  246616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:50     1000     21726   79.00   21.00    0.00    0.00  100.00    46     56.00      0.00  550792  246616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:51     1000     21726   79.00   21.00    0.00    0.00  100.00    46     62.00      0.00  550792  246616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:52     1000     21726   80.00   19.00    0.00    0.00   99.00    46     54.00      0.00  550792  246616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:53     1000     21726   78.00   23.00    0.00    0.00  101.00    46     50.00      0.00  550792  246620   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:54     1000     21726   81.00   19.00    0.00    0.00  100.00    46     52.00      0.00  550792  246620   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:55     1000     21726   77.00   22.00    0.00    0.00   99.00    46     58.00      0.00  550792  246620   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:56     1000     21726   85.00   16.00    0.00    0.00  101.00    46     40.00      0.00  550792  246620   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:57     1000     21726   77.00   23.00    0.00    0.00  100.00    46     51.00      0.00  550792  246624   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:58     1000     21726   74.00   25.00    0.00    0.00   99.00    46     47.00      0.00  550792  246624   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:54:59     1000     21726   72.00   29.00    0.00    0.00  101.00    46     52.00      0.00  550792  246628   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:00     1000     21726   80.00   20.00    0.00    0.00  100.00    46     46.00      0.00  550792  246628   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:01     1000     21726   78.00   21.00    0.00    0.00   99.00    46     35.00      0.00  550792  246628   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:02     1000     21726   77.00   24.00    0.00    0.00  101.00    46     40.00      0.00  550792  246632   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:03     1000     21726   81.00   19.00    0.00    0.00  100.00    46     34.00      0.00  550792  246632   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:04     1000     21726   82.00   18.00    0.00    0.00  100.00    46     38.00      0.00  550792  246632   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:05     1000     21726   85.00   15.00    0.00    0.00  100.00    46     36.00      0.00  550792  246632   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:06     1000     21726   83.00   17.00    0.00    0.00  100.00    46     33.00      0.00  550792  246636   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:07     1000     21726   78.00   21.00    0.00    0.00   99.00    46     41.00      0.00  550792  246636   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:08     1000     21726   80.00   21.00    0.00    0.00  101.00    46     35.00      0.00  550792  246640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:09     1000     21726   77.00   23.00    0.00    0.00  100.00    46     29.00      0.00  550792  246640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:10     1000     21726   81.00   19.00    0.00    0.00  100.00    46     27.00      0.00  550792  246640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:11     1000     21726   83.00   17.00    0.00    0.00  100.00    46     32.00      0.00  550792  246640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:12     1000     21726   80.00   20.00    0.00    0.00  100.00    46     29.00      0.00  550792  246644   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:13     1000     21726   80.00   20.00    0.00    0.00  100.00    46     26.00      0.00  550792  246644   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:14     1000     21726   82.00   18.00    0.00    0.00  100.00    46     35.00      0.00  550792  246648   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:15     1000     21726   80.00   19.00    0.00    0.00   99.00    46     28.00      0.00  550792  246648   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:16     1000     21726   80.00   21.00    0.00    0.00  101.00    46     26.00      0.00  550792  246648   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:17     1000     21726   80.00   20.00    0.00    0.00  100.00    46     27.00      0.00  550792  246648   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:18     1000     21726   74.00   26.00    0.00    0.00  100.00    46     32.00      0.00  550792  246648   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:19     1000     21726   75.00   25.00    0.00    0.00  100.00    46     24.00      0.00  550792  246652   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:20     1000     21726   79.00   21.00    0.00    0.00  100.00    46     30.00      0.00  550792  246652   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:21     1000     21726   75.00   25.00    0.00    0.00  100.00    46     26.00      0.00  550792  246652   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:22     1000     21726   75.00   25.00    0.00    0.00  100.00    46     24.00      0.00  550792  246656   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:23     1000     21726   78.00   22.00    0.00    0.00  100.00    46     25.00      0.00  550792  246656   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:24     1000     21726   75.25   23.76    0.00    0.00   99.01    46     24.75      0.00  550792  246660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:25     1000     21726   78.00   22.00    0.00    0.00  100.00    46     27.00      0.00  550792  246660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:26     1000     21726   79.00   21.00    0.00    0.00  100.00    46     26.00      0.00  550792  246660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:27     1000     21726   77.00   23.00    0.00    0.00  100.00    46     23.00      0.00  550792  246660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:28     1000     21726   84.00   16.00    0.00    0.00  100.00    46     32.00      0.00  550792  246660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:29     1000     21726   78.00   22.00    0.00    0.00  100.00    46     27.00      0.00  550792  246664   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:30     1000     21726   74.00   25.00    0.00    0.00   99.00    46     28.00      0.00  550792  246664   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:31     1000     21726   79.00   22.00    0.00    0.00  101.00    46     21.00      0.00  550792  246664   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:32     1000     21726   80.00   20.00    0.00    0.00  100.00    46     24.00      0.00  550792  246668   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:33     1000     21726   81.00   18.00    0.00    0.00   99.00    46     25.00      0.00  550792  246668   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:34     1000     21726   78.00   23.00    0.00    0.00  101.00    46     26.00      0.00  550792  246672   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:35     1000     21726   79.00   21.00    0.00    0.00  100.00    46     28.00      0.00  550792  246672   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:36     1000     21726   77.00   22.00    0.00    0.00   99.00    46     25.00      0.00  550792  246672   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:37     1000     21726   75.00   26.00    0.00    0.00  101.00    46     25.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:38     1000     21726   77.00   23.00    0.00    0.00  100.00    46     24.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:39     1000     21726   84.00   16.00    0.00    0.00  100.00    46     21.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:40     1000     21726   76.00   24.00    0.00    0.00  100.00    46     28.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:41     1000     21726   74.00   25.00    0.00    0.00   99.00    46     22.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:42     1000     21726   80.00   21.00    0.00    0.00  101.00    46     18.00      0.00  550792  246676   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:43     1000     21726   77.00   23.00    0.00    0.00  100.00    46     21.00      0.00  550792  246680   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:44     1000     21726   77.00   22.00    0.00    0.00   99.00    46     29.00      0.00  550792  246680   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:45     1000     21726   80.00   21.00    0.00    0.00  101.00    46     24.00      0.00  550792  246684   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:46     1000     21726   75.00   25.00    0.00    0.00  100.00    46     30.00      0.00  550792  246684   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:47     1000     21726   76.00   24.00    0.00    0.00  100.00    46     23.00      0.00  550792  246684   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:48     1000     21726   81.00   19.00    0.00    0.00  100.00    46     20.00      0.00  550792  246688   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:49     1000     21726   80.00   20.00    0.00    0.00  100.00    46     20.00      0.00  550792  246688   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:50     1000     21726   72.00   28.00    0.00    0.00  100.00    46     25.00      0.00  550792  246688   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:51     1000     21726   77.00   23.00    0.00    0.00  100.00    46     16.00      0.00  550792  246692   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:52     1000     21726   81.00   18.00    0.00    0.00   99.00    46     20.00      0.00  550792  246692   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:53     1000     21726   79.00   22.00    0.00    0.00  101.00    46     28.00      0.00  550792  246692   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:54     1000     21726   71.00   29.00    0.00    0.00  100.00    46     18.00      0.00  550792  246696   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:55     1000     21726   80.00   20.00    0.00    0.00  100.00    46     26.00      0.00  550792  246696   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:56     1000     21726   74.00   25.00    0.00    0.00   99.00    46     20.00      0.00  550792  246696   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:57     1000     21726   80.00   21.00    0.00    0.00  101.00    46     22.00      0.00  550792  246700   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:58     1000     21726   74.00   26.00    0.00    0.00  100.00    46     34.00      0.00  550792  246700   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:55:59     1000     21726   78.00   22.00    0.00    0.00  100.00    46     24.00      0.00  550792  246700   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:00     1000     21726   78.00   22.00    0.00    0.00  100.00    46     21.00      0.00  550792  246700   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:01     1000     21726   79.00   21.00    0.00    0.00  100.00    46  26637.00      0.00  550792  246704   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:02     1000     21726   79.00   21.00    0.00    0.00  100.00    46   3577.00      0.00  550792  246704   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:03     1000     21726   76.00   23.00    0.00    0.00   99.00    46   1660.00      0.00  550792  246708   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:04     1000     21726   76.00   25.00    0.00    0.00  101.00    46   1312.00      0.00  550792  246708   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:05     1000     21726   77.00   23.00    0.00    0.00  100.00    46   1210.00      0.00  550792  246708   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:06     1000     21726   80.00   20.00    0.00    0.00  100.00    46   1005.00      0.00  550792  246712   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:07     1000     21726   83.00   17.00    0.00    0.00  100.00    46    950.00      0.00  550792  246712   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:08     1000     21726   76.00   24.00    0.00    0.00  100.00    46    770.00      0.00  550792  246712   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:09     1000     21726   79.00   21.00    0.00    0.00  100.00    46    718.00      0.00  550792  246716   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:10     1000     21726   82.00   18.00    0.00    0.00  100.00    46    671.00      0.00  550792  246716   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:11     1000     21726   81.00   19.00    0.00    0.00  100.00    46    602.00      0.00  550792  246716   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:12     1000     21726   78.00   22.00    0.00    0.00  100.00    46    602.00      0.00  550792  246720   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:13     1000     21726   78.00   22.00    0.00    0.00  100.00    46    516.00      0.00  550792  246720   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:14     1000     21726   77.00   23.00    0.00    0.00  100.00    46    514.00      0.00  550792  246720   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:15     1000     21726   80.00   20.00    0.00    0.00  100.00    46    438.00      0.00  550792  246724   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:16     1000     21726   80.00   20.00    0.00    0.00  100.00    46    426.00      0.00  550792  246724   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:17     1000     21726   74.00   26.00    0.00    0.00  100.00    46    434.00      0.00  550792  246724   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:18     1000     21726   79.00   21.00    0.00    0.00  100.00    46    348.00      0.00  550792  246724   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:19     1000     21726   75.00   25.00    0.00    0.00  100.00    46    349.00      0.00  550792  246728   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:20     1000     21726   78.00   22.00    0.00    0.00  100.00    46    329.00      0.00  550792  246728   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:21     1000     21726   82.00   18.00    0.00    0.00  100.00    46    283.00      0.00  550792  246732   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:22     1000     21726   80.00   20.00    0.00    0.00  100.00    46    267.00      0.00  550792  246732   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:23     1000     21726   76.00   24.00    0.00    0.00  100.00    46    281.00      0.00  550792  246732   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:24     1000     21726   75.00   25.00    0.00    0.00  100.00    46    258.00      0.00  550792  246732   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:25     1000     21726   80.00   20.00    0.00    0.00  100.00    46    262.00      0.00  550792  246736   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:26     1000     21726   77.00   23.00    0.00    0.00  100.00    46    222.00      0.00  550792  246736   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:27     1000     21726   85.00   22.00    0.00    0.00  107.00    46    847.00      0.00  550792  248828   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:28     1000     21726   79.00   30.00    0.00    0.00  109.00    46    480.00      0.00  550792  247456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:29     1000     21726   83.00   17.00    0.00    0.00  100.00    46    168.00      0.00  550792  247456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:30     1000     21726   78.00   22.00    0.00    0.00  100.00    46    184.00      0.00  550792  247456   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:31     1000     21726   73.00   27.00    0.00    0.00  100.00    46    134.00      0.00  550792  247460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:32     1000     21726   77.00   23.00    0.00    0.00  100.00    46    163.00      0.00  550792  247460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:33     1000     21726   74.00   26.00    0.00    0.00  100.00    46    138.00      0.00  550792  247460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:34     1000     21726   77.00   23.00    0.00    0.00  100.00    46    125.00      0.00  550792  247460   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:35     1000     21726   78.00   22.00    0.00    0.00  100.00    46    123.00      0.00  550792  247464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:36     1000     21726   75.00   25.00    0.00    0.00  100.00    46    107.00      0.00  550792  247464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:37     1000     21726   77.00   23.00    0.00    0.00  100.00    46     96.00      0.00  550792  247464   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:38     1000     21726   80.00   20.00    0.00    0.00  100.00    46    117.00      0.00  550792  247468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:39     1000     21726   78.00   22.00    0.00    0.00  100.00    46    116.00      0.00  550792  247468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:40     1000     21726   80.00   20.00    0.00    0.00  100.00    46     91.00      0.00  550792  247468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:41     1000     21726   76.00   24.00    0.00    0.00  100.00    46     79.00      0.00  550792  247468   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:42     1000     21726   79.00   21.00    0.00    0.00  100.00    46     67.00      0.00  550792  247472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:43     1000     21726   76.00   24.00    0.00    0.00  100.00    46     63.00      0.00  550792  247472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:44     1000     21726   81.00   19.00    0.00    0.00  100.00    46     51.00      0.00  550792  247472   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:45     1000     21726   77.00   23.00    0.00    0.00  100.00    46     49.00      0.00  550792  247476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:46     1000     21726   76.00   24.00    0.00    0.00  100.00    46     54.00      0.00  550792  247476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:47     1000     21726   76.00   25.00    0.00    0.00  101.00    46     42.00      0.00  550792  247476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:48     1000     21726   72.00   27.00    0.00    0.00   99.00    46     48.00      0.00  550792  247476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:49     1000     21726   83.00   18.00    0.00    0.00  101.00    46     34.00      0.00  550792  247476   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:50     1000     21726   81.00   18.00    0.00    0.00   99.00    46     34.00      0.00  550792  247480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:51     1000     21726   80.00   20.00    0.00    0.00  100.00    46     42.00      0.00  550792  247480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:52     1000     21726   78.00   22.00    0.00    0.00  100.00    46     37.00      0.00  550792  247480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:53     1000     21726   79.00   21.00    0.00    0.00  100.00    46     32.00      0.00  550792  247480   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:54     1000     21726   78.00   22.00    0.00    0.00  100.00    46     34.00      0.00  550792  247484   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:55     1000     21726   75.00   25.00    0.00    0.00  100.00    46     33.00      0.00  550792  247484   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:56     1000     21726   78.00   22.00    0.00    0.00  100.00    46     29.00      0.00  550792  247488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:57     1000     21726   77.00   23.00    0.00    0.00  100.00    46     29.00      0.00  550792  247488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:58     1000     21726   74.00   26.00    0.00    0.00  100.00    46     25.00      0.00  550792  247488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:56:59     1000     21726   79.00   21.00    0.00    0.00  100.00    46     26.00      0.00  550792  247488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:00     1000     21726   73.00   28.00    0.00    0.00  101.00    46     17.00      0.00  550792  247488   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:01     1000     21726   79.00   20.00    0.00    0.00   99.00    46     22.00      0.00  550792  247492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:02     1000     21726   77.00   23.00    0.00    0.00  100.00    46     25.00      0.00  550792  247492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:03     1000     21726   85.00   15.00    0.00    0.00  100.00    46     25.00      0.00  550792  247492   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:04     1000     21726   79.00   21.00    0.00    0.00  100.00    46     15.00      0.00  550792  247496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:05     1000     21726   80.00   20.00    0.00    0.00  100.00    46     15.00      0.00  550792  247496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:06     1000     21726   75.00   25.00    0.00    0.00  100.00    46     14.00      0.00  550792  247496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:07     1000     21726   76.00   24.00    0.00    0.00  100.00    46     15.00      0.00  550792  247496   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:08     1000     21726   74.00   26.00    0.00    0.00  100.00    46     13.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:09     1000     21726   76.00   24.00    0.00    0.00  100.00    46      7.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:10     1000     21726   81.00   19.00    0.00    0.00  100.00    46     11.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:11     1000     21726   80.20   18.81    0.00    0.00   99.01    46      8.91      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:12     1000     21726   79.00   21.00    0.00    0.00  100.00    46     12.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:13     1000     21726   80.00   20.00    0.00    0.00  100.00    46     11.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:14     1000     21726   82.00   18.00    0.00    0.00  100.00    46     12.00      0.00  550792  247504   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:15     1000     21726   78.00   22.00    0.00    0.00  100.00    46     11.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:16     1000     21726   79.00   21.00    0.00    0.00  100.00    46     13.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:17     1000     21726   77.00   23.00    0.00    0.00  100.00    46      2.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:18     1000     21726   80.00   20.00    0.00    0.00  100.00    46      6.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:19     1000     21726   80.00   20.00    0.00    0.00  100.00    46      7.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:20     1000     21726   73.00   27.00    0.00    0.00  100.00    46      8.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:21     1000     21726   85.00   15.00    0.00    0.00  100.00    46      6.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:22     1000     21726   81.00   19.00    0.00    0.00  100.00    46      7.00      0.00  550792  247512   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:23     1000     21726   75.00   25.00    0.00    0.00  100.00    46      9.00      0.00  550792  247520   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:24     1000     21726   78.00   23.00    0.00    0.00  101.00    46     31.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:25     1000     21726   77.00   22.00    0.00    0.00   99.00    46      4.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:26     1000     21726   74.00   26.00    0.00    0.00  100.00    46      1.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:27     1000     21726   78.00   22.00    0.00    0.00  100.00    46      3.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:28     1000     21726   77.00   23.00    0.00    0.00  100.00    46      6.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:29     1000     21726   70.00   30.00    0.00    0.00  100.00    46      2.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:30     1000     21726   72.00   28.00    0.00    0.00  100.00    46      4.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:31     1000     21726   80.00   21.00    0.00    0.00  101.00    46      1.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:32     1000     21726   84.00   16.00    0.00    0.00  100.00    46      8.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:33     1000     21726   76.00   23.00    0.00    0.00   99.00    46      0.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:34     1000     21726   77.00   24.00    0.00    0.00  101.00    46      2.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:35     1000     21726   78.00   22.00    0.00    0.00  100.00    46      4.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:36     1000     21726   77.00   23.00    0.00    0.00  100.00    46      1.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:37     1000     21726   77.00   23.00    0.00    0.00  100.00    46      7.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:38     1000     21726   75.00   25.00    0.00    0.00  100.00    46      0.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:39     1000     21726   82.00   18.00    0.00    0.00  100.00    46      6.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:40     1000     21726   81.00   19.00    0.00    0.00  100.00    46      4.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:41     1000     21726   77.00   23.00    0.00    0.00  100.00    46      1.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:42     1000     21726   74.00   25.00    0.00    0.00   99.00    46      1.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:43     1000     21726   78.00   23.00    0.00    0.00  101.00    46      2.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:44     1000     21726   80.00   20.00    0.00    0.00  100.00    46      2.00      0.00  550792  247616   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:45     1000     21726   80.00   20.00    0.00    0.00  100.00    46      3.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:46     1000     21726   73.00   26.00    0.00    0.00   99.00    46      6.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:47     1000     21726   75.00   25.00    0.00    0.00  100.00    46      0.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:48     1000     21726   78.00   23.00    0.00    0.00  101.00    46      4.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:49     1000     21726   78.00   22.00    0.00    0.00  100.00    46      1.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:50     1000     21726   78.00   22.00    0.00    0.00  100.00    46      0.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:51     1000     21726   78.00   22.00    0.00    0.00  100.00    46      3.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:52     1000     21726   76.00   24.00    0.00    0.00  100.00    46      3.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:53     1000     21726   78.00   22.00    0.00    0.00  100.00    46      2.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:54     1000     21726   78.00   22.00    0.00    0.00  100.00    46      3.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:55     1000     21726   74.00   25.00    0.00    0.00   99.00    46      1.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:56     1000     21726   82.00   19.00    0.00    0.00  101.00    46      1.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:57     1000     21726   80.00   20.00    0.00    0.00  100.00    46      5.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:58     1000     21726   76.00   24.00    0.00    0.00  100.00    46      1.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:57:59     1000     21726   76.00   23.00    0.00    0.00   99.00    46      1.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:58:00     1000     21726   80.00   20.00    0.00    0.00  100.00    46      5.00      0.00  550792  247640   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:58:01     1000     21726   72.00   29.00    0.00    0.00  101.00    46  14619.00      0.00  550792  247660   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:58:02     1000     21726   78.00   22.00    0.00    0.00  100.00    46   2005.00      0.00  550792  247664   0.13  tectonic-cli
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+09:58:03     1000     21726   78.00   22.00    0.00    0.00  100.00    46   1477.00      0.00  550792  247664   0.13  tectonic-cli
