@@ -9,9 +9,9 @@ workloads=(
 )
 time="/usr/bin/time"
 ycsb="$HOME/YCSB/bin/ycsb.sh"
-stats="$HOME/stats"
+stats="$HOME/data/benchmarking/ycsb/rocksdb/1x"
 runs=5
-spec_path="$HOME/ycsb_workloads/1x"
+spec_path="$HOME/workload_specs/ycsb/1x"
 rocksdb_path="/tmp/ycsb-rocksdb-data"
 
 monitor_ycsb() {
@@ -37,7 +37,7 @@ mkdir -p $stats
 
 for wl in "${workloads[@]}"; do
   for run in $(seq 1 $runs); do
-    prefix="ycsb_${wl}_run${run}"
+    prefix="${wl}/run${run}"
     log_path="$stats/$prefix.out"
     time_path="$stats/$prefix.time"
     cpu_log_path="$stats/$prefix.cpu"
